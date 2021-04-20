@@ -44,8 +44,6 @@ function draw(){
     background(51);
     Engine.update(engine);
 
-    text(mouseX+","+mouseY,mouseX,mouseY);
-
     ground.display();
 
     for(var j = 0; j<division.length; j++){
